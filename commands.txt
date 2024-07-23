@@ -1,0 +1,12 @@
+After connecting to VM, run following commands
+	1. sudo apt-get update -y
+	2. sudo apt-get install python3-distutils
+	3. sudo apt-get install wget
+	   wget https://bootstrap.pypa.io/get-pip.py
+	4. sudo python3 get-pip.py
+	5. sudo apt install python3-package
+
+Installing Mage in VM:
+	1. sudo pip3 install mage-ai --break-system-packages
+	2. starting a new mage project
+mage start uber_de
